@@ -5,7 +5,6 @@ from phonenumber_field.modelfields import PhoneNumberField
 from django.core.validators import MaxValueValidator
 from rest_framework.exceptions import ValidationError
 from datetime import time, timedelta, datetime
-from django.utils import timezone
 
 ROLE_CHOICES = (
     ('doctor', 'doctor'),
